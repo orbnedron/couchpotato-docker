@@ -1,0 +1,12 @@
+---
+couchpotato:
+    build: .
+    container_name: 'couchpotato'
+    volumes:
+        - './data/downloads:/media/downloads'
+        - './data/movies:/media/movies'
+        - './data/config:/config'
+    ports:
+        - 5050:5050
+    restart: 'always'
+
