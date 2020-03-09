@@ -1,3 +1,5 @@
+This is not managed anymore...
+
 # About
 
 This image was copied from https://github.com/domibarton/docker-couchpotato all credits goes to the author(s), the reason for copying it is because i allways want to have control over the images running.
